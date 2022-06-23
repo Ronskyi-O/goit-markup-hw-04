@@ -5,6 +5,7 @@
   --hoover-color: #2196f3;
   --hoover-color-main-button: #188ce8;
   --border-coloor: #ececec;
+  --icon-color: #afb1b8;
   --main-background-color: #ffffff;
   --footer-background-color: #2f303a;
   --additional-background-color: #f5f4fa;
@@ -311,6 +312,7 @@ img {
 .team .card {
   flex-basis: calc((100% - 30px * 4) / 4);
   margin: calc(30px / 2);
+  padding-bottom: 30px;
 
   background: var(--main-background-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -338,6 +340,36 @@ img {
   color: var(--text-color);
 
   text-align: center;
+}
+
+.team .networks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 16px 32px 0 32px;
+  height: 44px;
+}
+
+.team .thumb {
+  width: 44px;
+  height: 44px;
+  padding: 12px;
+  border-radius: 50%;
+
+  color: var(--icon-color);
+  background-color: var(--main-background-color);
+
+  cursor: pointer;
+}
+
+.team .thumb:hover,
+.team .thumb:focus {
+  color: var(--additional-color);
+  background-color: var(--hoover-color);
+}
+
+.team .icon {
+  fill: currentColor;
 }
 
 /* Основная часть страници "Портфолио" */
