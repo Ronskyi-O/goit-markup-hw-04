@@ -398,7 +398,7 @@ img {
   margin: calc(30px / 2);
   padding: 16px 32px;
 
-  border: 1px solid var(--icon-color);
+  outline: 1px solid var(--icon-color);
   border-radius: 4px;
 
   color: var(--icon-color);
@@ -412,7 +412,7 @@ img {
 .clients .thumb:hover,
 .clients .thumb:focus {
   color: var(--hoover-color);
-  border: 1px solid var(--hoover-color);
+  outline: 1px solid var(--hoover-color);
 }
 
 /* Основная часть страници "Портфолио" */
